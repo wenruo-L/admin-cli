@@ -1,6 +1,6 @@
-# patpet-admin-web
+# admin-cli
 
-> Patpet App 自动抓拍图片清晰度管理页面与关键词测试页面 -暂时
+> 一个后台管理系统的脚手架
 
 ## 项目开发
 
@@ -24,11 +24,8 @@ yarn build:prod
 
 ## 页面路径
 
-生产环境域名：https://admin.patpet.com.cn/#/  
-测试环境域名：https://test.admin.patpet.com.cn/#/
-
-清晰度管理页面：/ (默认页面)  
-关键词测试页面：/stickers/stickers-keyword-test
+生产环境域名：  
+测试环境域名：
 
 ## 打包后路径
 
