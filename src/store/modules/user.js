@@ -6,20 +6,95 @@ const menuList = [
     icon: "#icon-zhanshi",
     children: [
       {
-        label: "图片清晰度管理",
+        label: "菜单管理",
+        path: "/menu",
         icon: "",
+      },
+      {
+        label: "图片清晰度管理",
         path: "/photoDefinition",
+        icon: "",
       },
 
       {
         label: "测试上传",
-        icon: "",
         path: "/testUpload",
+        icon: "",
       },
       {
         label: "测试crud",
-        icon: "",
         path: "/test",
+        icon: "",
+      },
+    ],
+  },
+  {
+    label: "权限管理",
+    path: "/authority",
+    icon: "#icon-icon--quanxian",
+    children: [
+      {
+        label: "角色管理",
+        path: "/role",
+        icon: "",
+      },
+    ],
+  },
+  {
+    label: "基础信息",
+    path: "/company",
+    icon: "#icon-gangweixinxi",
+    children: [
+      {
+        label: "部门管理",
+        path: "/department",
+        icon: "",
+      },
+      {
+        label: "员工管理",
+        path: "/employee",
+        icon: "",
+      },
+      {
+        label: "岗位管理",
+        path: "/post",
+        icon: "",
+      },
+    ],
+  },
+  {
+    label: "内容管理",
+    path: "/content-management",
+    icon: "#icon-jinchumingxi",
+    children: [
+      {
+        label: "内容列表",
+        path: "/content",
+        icon: "",
+      },
+    ],
+  },
+  {
+    label: "用户管理",
+    path: "/user-management",
+    icon: "#icon-techreport-",
+    children: [
+      {
+        label: "用户列表",
+        path: "/user",
+        icon: "",
+      },
+    ],
+  },
+  {
+    label: "特效管理",
+    path: "/special-effect-management",
+    icon: "#icon-wendang",
+    children: [
+      {
+        label: "特效列表",
+        path: "/specialEffect",
+        icon: "",
       },
     ],
   },
@@ -29,10 +104,19 @@ const menuList = [
     icon: "#icon-wendang",
     children: [
       {
+        label: "贴纸列表",
+        path: "/stickersManagement",
+        icon: "",
+      },
+      {
+        label: "关键词管理",
+        path: "/stickersKeyword",
+        icon: "",
+      },
+      {
         label: "关键词测试",
         path: "/stickersKeywordTest",
         icon: "",
-        component: "views/stickers/stickers-keyword-test",
       },
     ],
   },
